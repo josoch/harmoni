@@ -1,36 +1,50 @@
-## Family Harmony: A Collaborative Finance App for African Families
+# Welcome to your Expo app 👋
 
-**Problem:** 
-* Traditional finance management in African families is often informal and undocumented, leading to a lack of transparency and potential conflict. 
-* Women, who often play a crucial role in managing household finances, lack tools to effectively track income and expenses.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-**Solution:**
-Family Harmony is a mobile app designed to promote financial transparency and collaboration within African families.  
+## Get started
 
-**Key Features:**
+1. Install dependencies
 
-* **Shared access:** Requires a minimum of two members (e.g., husband and wife) and allows inviting additional family members (children).
-* **Relationship recognition:**  Differentiates between pre-marital and marital relationships.
-* **Collaborative management:** 
-    * **Primary member:** One member acts as the administrator, managing user access and app settings.
-    * **Income tracking:** All members can contribute income and record deposits.
-    * **Expense tracking:**  Members can record expenses categorized for common household needs (weddings, school fees, groceries, etc.).
-    * **Account management:** Supports separate "Family Bank Account" and "Family Cash Account" for shared expenses. Allows linking individual accounts for personal expenses.
+   ```bash
+   npm install
+   ```
 
-**User Roles:**
+2. Start the app
 
-* **Parents (Father & Mother):**
-    * Full access to view all reports, including net worth.
-    * Can edit and delete any transaction.
-    * Can make deposits and record family expenses.
-* **Children:**
-    * Limited access to view reports.
-    * Can edit and delete their own transactions.
-    * Can record deposits and expenses related to their allowance.
+   ```bash
+    npx expo start
+   ```
 
-**Benefits:**
+In the output, you'll find options to open the app in a
 
-* **Financial transparency:**  Provides a clear picture of family income and expenses, fostering trust and open communication.
-* **Collaborative decision-making:**  Empowers all family members to participate in financial planning.
-* **Improved financial literacy:**  Educates younger family members about money management.
-* **Reduced financial stress:**  Promotes better financial planning and budgeting.
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
